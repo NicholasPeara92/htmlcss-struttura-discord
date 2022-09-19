@@ -24,12 +24,20 @@
     height: 400px;
     background-color: #ee82ee;
 }
+.debug .col-big{
+    background-color: #1e90ff;
+}
+.debug .col-small{
+    background-color: #ffc0cb;
+}
+.debug .col-biggest{
+    background-color: #228b22;
+}
 
 /* common */
 .container{
    max-width: 1200px;
-   margin: auto; 
-   
+   margin: auto;    
 }
 
 /* header */
@@ -51,5 +59,25 @@
 
 
 /* main */
+section .container{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+section:nth-child(2n){
+    background-color: #d3d3d3;
+}   
+.col-big{
+    height: 500px;
+    width: 60%;
+}
+.col-small{
+    height: 500px;
+    width: 40%;
+}
+.col-biggest{
+    height: 800px;
+    width: 100%;
+}
 
 /* footer */
