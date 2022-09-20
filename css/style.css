@@ -69,6 +69,17 @@
     align-items: center;
     padding: 0 10px;  
 }
+.main-nav ul{
+    list-style: none;
+    display: flex;
+}
+.main-nav ul li{
+    margin: 0 10px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
 .login{
     border-left-style: dashed;
     width: 20%;
